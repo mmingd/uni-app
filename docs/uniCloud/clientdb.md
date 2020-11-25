@@ -1267,7 +1267,7 @@ module.exports = {
   command: {
     // getMethod('where') 获取所有的where方法，返回结果为[{$method:'where',$param: [{a:1}]}]
     getMethod,
-    // getMethod({name:'where',index: 0}) 获取第1个where方法的参数，结果为数组形式，例：[{a:1}]
+    // getParam({name:'where',index: 0}) 获取第1个where方法的参数，结果为数组形式，例：[{a:1}]
     getParam,
     // setParam({name:'where',index: 0, param: [{a:1}]}) 设置第1个where方法的参数，调用之后where方法实际形式为：where({a:1})
     setParam
